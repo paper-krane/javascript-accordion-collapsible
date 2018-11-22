@@ -1,0 +1,62 @@
+*, ::before, ::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 300rem;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #111111;
+    color:#aaaaaa;
+}
+body {
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+h1 {
+    font-size: 2rem;
+}
+h4 {
+    font-size: 1.2rem;
+}
+h1, h4 {
+    font-weight: 300;
+    line-height: 1.1em;
+    margin-bottom: 2rem;
+}
+.italic {
+    font-style: italic;
+}
+.full-height {
+    min-height: 100vh;
+    padding: 5rem 0;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.centered {
+    width: 90%;
+    max-width: 600px;
+}
+.centered:after {
+    display: table;
+}
+.centered h1 {
+    text-align: center;
+}
+
+/* Accordian / Collapsible designs */
+/* ============================================================ */
+/* ============================================================ */
+
+
+
+/* ============================================================ */
+/* ============================================================ */
